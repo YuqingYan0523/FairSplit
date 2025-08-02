@@ -14,15 +14,15 @@ df = pd.read_csv(DATA_PATH)
 from src.initial_screening import run_split_analysis, enhanced_visualization
 
 if __name__ == "__main__":
-    FR_CSV = os.path.join(CURRENT_DIR, 'full_split_records.csv')
-    UQ_CSV = os.path.join(CURRENT_DIR, 'unique_splits.csv')
+    FR_CSV = os.path.join(CURRENT_DIR, 'full_split_records.csv') #this csv spreadsheet...
+    UQ_CSV = os.path.join(CURRENT_DIR, 'unique_splits.csv') #this csv spreadsheet...
     # Run analysis
     full_results, unique_splits_df = run_split_analysis(
         df,
-        group_col='Source',
-        target_col='y_var',
-        n_tests=2000,
-        test_size=0.2,
+        group_col='Source', #your literature source
+        target_col='y_var', #year of the study, a common important indictor; change it to any other indictor if needs
+        n_tests=2000, #running a test of 2000 different seeds; change the number as needed
+        test_size=0.2, #a common ratio 8:2 is used
         save_path_full_record = FR_CSV,
         save_path_unique = UQ_CSV
     )
@@ -61,9 +61,9 @@ diff_results = calculate_distribution_differences(
     group_col='Source',
     target_col='y_var',
     test_size=0.2,
-    max_attempts=50,
-    size_tolerance=0.05,
-    divergence_threshold=0.02
+    max_attempts=50, #the number of attempts that is used to search a valid result
+    size_tolerance=0.05, # 
+    divergence_threshold=0.02 #
 )
 
 DR_CSV = os.path.join(CURRENT_DIR, 'distribution_differences.csv')
