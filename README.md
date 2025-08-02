@@ -1,4 +1,4 @@
-# FairSplit: A Data Splitting & Randomness Management Tool for Small, Heterogeneous and Imbalanced Datasets' Utilization in Machine Learing 
+# FairSplit: A Data Splitting & Randomness Management Tool for Machine Learning Based on Small, Heterogeneous, and Imbalanced Datasets 
 Authors: [Yuqing Yan](https://github.com/YuqingYan0523) and [Junjie Zhu](https://github.com/starfriend10) @Princeton University WET Lab led by Z. Jason Ren
 
 ## Work Origin and Citation
