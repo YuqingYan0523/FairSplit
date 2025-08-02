@@ -2,9 +2,9 @@
 Authors: [Yuqing Yan](https://github.com/YuqingYan0523) and [Junjie Zhu](https://github.com/starfriend10) @Princeton University WET Lab led by Z. Jason Ren
 
 ## Work Origin and Citation
-You can find the original study here:
+You can find and cite the original study here:
 
-*Publication DOI reserved*
+*<ins>Publication DOI reserved</ins>*
 
 ## Pipeline Overview
 1. Motivation & Backgrounds
