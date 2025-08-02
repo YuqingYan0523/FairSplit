@@ -91,7 +91,7 @@ Generates certain amount of seeds ensuring grouped splitting and y distribution,
 ## How to Use
 1. Installation
 ```bash
-git clone https://github.com/YuqingYan0523/FairSplit.git
+git clone https://github.com/YuqingYan0523/RESIST-Robust-Environmental-Small-data-Imbalanced-Splitting-Techniques
 cd FairSplit
 pip install -r requirement.txt
 ```
