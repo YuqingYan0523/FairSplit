@@ -20,7 +20,7 @@ if __name__ == "__main__":
     full_results, unique_splits_df = run_split_analysis(
         df,
         group_col='Source', #your literature source
-        target_col='y_var', #year of the study, a common important indictor; change it to any other indictor if needs
+        target_col='y_var', #your y variable name
         n_tests=2000, #running a test of 2000 different seeds; change the number as needed
         test_size=0.2, #a common ratio 8:2 is used
         save_path_full_record = FR_CSV,
