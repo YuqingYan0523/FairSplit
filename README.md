@@ -1,6 +1,5 @@
-# RESIST: **R**obust **E**nvironmental **S**mall-data & **I**mbalanced **S**plitting **T**echniques
-
-# SOLID: **S**eed-managed **O**perations for **L**imited & **I**mbalanced **D**ata
+# RESIST: Robust Environmental Small-data & Imbalanced Splitting Techniques
+# SOLID: Seed-managed Operations for Limited & Imbalanced Data
 
 **A Data Splitting & Randomness Management Tool for Machine Learning Based on Small, Heterogeneous, and Imbalanced Datasets**
 Authors: [Yuqing Yan](https://github.com/YuqingYan0523) and [Junjie Zhu](https://github.com/starfriend10) @Princeton University WET Lab led by Z. Jason Ren
