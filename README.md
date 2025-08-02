@@ -3,6 +3,7 @@ Authors: [Yuqing Yan](https://github.com/YuqingYan0523) and [Junjie Zhu](https:/
 
 ## Work Origin and Citation
 You can find the original study here:
+
 *Publication DOI reserved*
 
 ## Pipeline Overview
