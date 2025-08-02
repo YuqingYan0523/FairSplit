@@ -73,7 +73,7 @@ Generates certain amount of seeds ensuring grouped splitting and y distribution,
 
 ## Repo Structure
 ```bash
-📁 FairSplit/
+📁 RESIST-Robust-Environmental-Small-data-Imbalanced-Splitting-Techniques/
 │
 ├── 📂 example/
 │   ├── example_dataset.csv      # Example input file (grouped tabular data)
