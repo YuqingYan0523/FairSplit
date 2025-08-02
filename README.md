@@ -65,6 +65,9 @@ Generates certain amount of seeds ensuring grouped splitting and y distribution,
 | 🚫 Homogeneous, large datasets  | Simpler splitting may suffice  | This tool may be overkill; consider `StratifiedKFold`        |
 | 🚫 Time-series data   | This tool is not designed for online settings | Use time-aware or sequential splits  |
 
+For other splitting method, consult:
+**Zhu, J.-J.**, Yang, M., & Ren, Z. J. (2023). Machine Learning in Environmental Research: Common Pitfalls and Best Practices. *Environmental Science & Technology*, 57(46), 17671–17689. [https://doi.org/10.1021/acs.est.3c00026](https://doi.org/10.1021/acs.est.3c00026).
+
 ## Repo Structure
 ```bash
 📁 FairSplit/
