@@ -10,9 +10,9 @@ from src.split_function import proportional_group_train_test_split
 def calculate_distribution_differences(
     df,
     seeds,
-    group_col='Source',
-    target_col='y_var',
-    test_size=0.2,
+    group_col='Source', # column name for grouping
+    target_col='y_var', # y variable name
+    test_size=0.2, # testing set ratio
     **split_kwargs
 ):
     """
