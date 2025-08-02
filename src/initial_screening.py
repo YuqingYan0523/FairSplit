@@ -16,11 +16,10 @@ os.makedirs('split_results', exist_ok=True)
 def run_split_analysis(df, group_col, target_col, n_tests=2000, test_size=0.2, save_path_full_record, save_path_unique):
     """
     Enhanced analysis that:
-    1. Runs 2000 splits with different random states
+    1. Runs `n_tests` splits with different random states
     2. Records all group assignments
-    3. Identifies unique splits
+    3. Identifies unique splits with a `test_size` of 20%
     4. Saves comprehensive results
-    5. Visualizes a 10% sample
     """
     # Storage for full results
     full_results = {
