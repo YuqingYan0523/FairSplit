@@ -1,5 +1,4 @@
 # RESIST: Robust Environmental Small-data & Imbalanced Splitting Techniques
-# SOLID: Seed-managed Operations for Limited & Imbalanced Data
 
 **A Data Splitting & Randomness Management Tool for Machine Learning Based on Small, Heterogeneous, and Imbalanced Datasets**
 
