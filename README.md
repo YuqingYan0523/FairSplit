@@ -8,7 +8,7 @@ This repository was developed as part of a research project predicting N₂O emi
 * **Overfitting**: Significant distribution shifts between training and testing sets—especially in features or target variables—can lead to overly optimistic validation outcomes.
 * **Biased Evaluations**: With high heterogeneity and class imbalance, results may vary drastically depending on how the data is split. Without controlling for randomness, model evaluations become unreliable, e.g. splits generating better performance is reported while new data generating different splits causes significantly lower result.
 
-These challenges are common in domains where data is limited and sourced from diverse origins, such as literature-based datasets or multi-center studies. To address them, this pipeline introduces a systematic strategy for **data splitting and randomness management**, enabling more reliable, fair, and reproducible model development.
+These challenges are common in domains where data is limited and sourced from diverse origins, such as literature-based datasets or multi-center studies. To address them, this pipeline introduces a systematic strategy for **data splitting, randomness assessment, and data leakage management**, enabling more reliable, fair, and reproducible model development.
 
 2. Work Flow
 - Grouped data split to avoid data leakage.
