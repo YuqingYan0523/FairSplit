@@ -73,7 +73,7 @@ Generates certain amount of seeds ensuring grouped splitting and y distribution,
 
 ## Repo Structure
 ```bash
-📁 RESIST-Robust-Environmental-Small-data-Imbalanced-Splitting-Techniques/
+📁 RESIST
 │
 ├── 📂 example/
 │   ├── example_dataset.csv      # Example input file (grouped tabular data)
@@ -91,8 +91,8 @@ Generates certain amount of seeds ensuring grouped splitting and y distribution,
 ## How to Use
 1. Installation
 ```bash
-git clone https://github.com/YuqingYan0523/RESIST-Robust-Environmental-Small-data-Imbalanced-Splitting-Techniques.git
-cd RESIST-Robust-Environmental-Small-data-Imbalanced-Splitting-Techniques
+git clone https://github.com/YuqingYan0523/RESIST.git
+cd RESIST
 pip install -r requirement.txt
 ```
 2. Example Use Case
